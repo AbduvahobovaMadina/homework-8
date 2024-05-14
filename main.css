@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.category{
+    width: 100%;
+    height: 100vh;
+    background: rgb(227, 227, 247);
+    padding: 40px 40px;
+}
+.category__title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    padding: 40px;
+    gap:20px;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+.img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+.p{
+    text-align: center;
+    padding-top: 10px;
+}
+.p:hover{
+    color: blue;
+    cursor: pointer;
+}
